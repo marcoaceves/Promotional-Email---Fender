@@ -1,0 +1,101 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            *{
+                box-sizing: border-box; 
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-raw>
+            <!-- section 1   fender logo-->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/tJvNfKnR/header.jpg " alt="" />
+            </mj-column>
+        </mj-section >
+        <mj-raw>
+            <!-- section 2  winter  20%-->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/G3XKHyg0/winter.jpg " alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- section 3  sale Shop now-->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/Wbtnr1xd/sale.jpg " alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- section 4 elc gtr-->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/YqVxxwwb/1st-gtr.jpg" alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- section 5  acoustic gtr-->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/0yw0WHkx/2nd-gtr.jpg" alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- section 6 Amps -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/0N1dLdjS/3rd-gtr.jpg" alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- section 7  pedals-->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/qRkc7J8M/4th-gtr.jpg" alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- section 8 shirts merch -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/q7cX0h65/5th-gtr.jpg" alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- section end  winter sale shop all deals-->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image padding="0" src="https://i.postimg.cc/Px2Wpg4b/end.jpg" alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- Footer-->
+        </mj-raw>
+        <mj-section padding="0" background-color="#000000">
+            <mj-column padding="0" background-color="#000000">
+                <mj-image src="https://i.postimg.cc/XvgFmRTM/logo.jpg" alt="" align="center" width="123px" />
+                <mj-text color="#ffffff" line-height="1.3">
+                    <h2>Fender Musical Instruments Corporation 17600 N. Perimeter Dr. Suite 100, Scottsdale, AZ 85255 © 2024. All rights reserved.
+                    </h2>
+                </mj-text>
+                <mj-text color="#ffffff" line-height="1.3">
+                    <p>*Receive up to 20% off your purchase for Winter Sale on Fender.com, excluding Fender Mod Shop, Custom Shop guitars, basses and amps. Promotion open to US residents only, and is valid only during the date range indicated in the associated advertisement or product listing. Promotion is only available on select products and styles, as determined by Fender in its sole discretion, and is valid only on marked merchandise, subject to availability. Promotion has no cash value and may only be used in connection with online purchases on Fender.com. Promotion may not be combined with any other sale, promotion, discount, code, coupon, or other offer, and may only be used once per order. In instances where a promotion applies to one product with the purchase of other or similar products, the promotion will be applied to the product with the lowest full retail price as stated on Fender.com on the date of order. Promotion not valid on prior purchases, taxes, or shipping and processing charges. Promotion void where prohibited, taxed, or otherwise restricted. Other restrictions and exclusions may apply. Fender may modify or discontinue this promotion at any time in its sole discretion. Offer valid 12:00:01am PST on December 26th, 2024 until 11:59:59pm PST on January 23th, 2025.</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
