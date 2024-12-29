@@ -4,18 +4,56 @@
             *{
                 box-sizing: border-box; 
             }
+            .footer-links{
+                    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #ffffff;
+                    padding-bottom: 35px;
+                    font-weight: 300;
+            }
+            .footer-links:hover{
+                    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #ffffff;
+                    padding-bottom: 35px;
+                    font-weight: 300;
+            }
+                    
+            @media (max-width:550px) {
+                .social-icons{
+                    padding: 20px 70px !important;
+                }
+
+            }
+            @media (max-width:480px) {
+                .footer-group-links{
+                    width:100%!important;
+                }
+            }
+            @media (max-width:420px) {
+                .footer-section-links{
+                    padding:10px 30px 30px 30px!important ;
+                }
+            }
         </mj-style>
         <mj-style inline="inline">
-            
+            .social-icons{
+                    padding:20px 140px;
+                }
+                .footer-section-links{
+                    padding:10px 61px 30px 61px;
+                }
         </mj-style>
     </mj-head>
-    <mj-body>
+    <mj-body background-color="#E0E0E0">
         <mj-raw>
             <!-- section 1   fender logo-->
         </mj-raw>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image padding="0" src="https://i.postimg.cc/tJvNfKnR/header.jpg " alt="" />
+                <mj-image href="#" padding="0" src="https://i.postimg.cc/tJvNfKnR/header.jpg " alt="" />
             </mj-column>
         </mj-section >
         <mj-raw>
@@ -23,7 +61,7 @@
         </mj-raw>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image padding="0" src="https://i.postimg.cc/G3XKHyg0/winter.jpg " alt="" />
+                <mj-image href="#" padding="0" src="https://i.postimg.cc/G3XKHyg0/winter.jpg " alt="" />
             </mj-column>
         </mj-section>
         <mj-raw>
@@ -39,7 +77,7 @@
         </mj-raw>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image padding="0" src="https://i.postimg.cc/YqVxxwwb/1st-gtr.jpg" alt="" />
+                <mj-image href="#" padding="0" src="https://i.postimg.cc/YqVxxwwb/1st-gtr.jpg" alt="" />
             </mj-column>
         </mj-section>
         <mj-raw>
@@ -47,7 +85,7 @@
         </mj-raw>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image padding="0" src="https://i.postimg.cc/0yw0WHkx/2nd-gtr.jpg" alt="" />
+                <mj-image href="#" padding="0" src="https://i.postimg.cc/0yw0WHkx/2nd-gtr.jpg" alt="" />
             </mj-column>
         </mj-section>
         <mj-raw>
@@ -55,7 +93,7 @@
         </mj-raw>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image padding="0" src="https://i.postimg.cc/0N1dLdjS/3rd-gtr.jpg" alt="" />
+                <mj-image href="#" padding="0" src="https://i.postimg.cc/0N1dLdjS/3rd-gtr.jpg" alt="" />
             </mj-column>
         </mj-section>
         <mj-raw>
@@ -63,7 +101,7 @@
         </mj-raw>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image padding="0" src="https://i.postimg.cc/qRkc7J8M/4th-gtr.jpg" alt="" />
+                <mj-image href="#" padding="0" src="https://i.postimg.cc/qRkc7J8M/4th-gtr.jpg" alt="" />
             </mj-column>
         </mj-section>
         <mj-raw>
@@ -71,7 +109,7 @@
         </mj-raw>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image padding="0" src="https://i.postimg.cc/q7cX0h65/5th-gtr.jpg" alt="" />
+                <mj-image href="#" padding="0" src="https://i.postimg.cc/q7cX0h65/5th-gtr.jpg" alt="" />
             </mj-column>
         </mj-section>
         <mj-raw>
@@ -79,23 +117,89 @@
         </mj-raw>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image padding="0" src="https://i.postimg.cc/Px2Wpg4b/end.jpg" alt="" />
+                <mj-image href="#" padding="0" src="https://i.postimg.cc/Px2Wpg4b/end.jpg" alt="" />
             </mj-column>
         </mj-section>
         <mj-raw>
             <!-- Footer-->
         </mj-raw>
+        <mj-section background-color="#000000">
+            <mj-group>
+                <mj-column >
+                    <mj-image href="#" padding="0" width="213px" src="https://i.postimg.cc/j22zzMgp/klarna.jpg" alt="" />
+                </mj-column>
+                <mj-column >
+                    <mj-image href="#" padding="0" width="213px"  src="https://i.postimg.cc/kGHWwWLB/apple-pay.jpg" alt="" />
+                </mj-column>
+                <mj-column >
+                    <mj-image href="#" padding="0" width="213px"  src="https://i.postimg.cc/QNYgXrVh/find-location.jpg" alt="" />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-raw>
+            <!-- social icons -->
+        </mj-raw>
+        <mj-section background-color="#000000"  css-class="social-icons">
+            <mj-group >
+                <mj-column >
+                    <mj-image href="#" padding="0" width="67px" src="https://i.postimg.cc/kXVQGht8/fb.jpg" alt="" align="center"/>
+                </mj-column>
+                <mj-column >
+                    <mj-image href="#" padding="0" width="66px" src="https://i.postimg.cc/02Lpwdp4/x.jpg" alt="" align="center"/>
+                </mj-column>
+                <mj-column >
+                    <mj-image href="#" padding="0" width="66px" src="https://i.postimg.cc/jSPyQwcS/ig.jpg" alt="" align="center"/>
+                </mj-column>
+                <mj-column >
+                    <mj-image href="#" padding="0" width="77px" src="https://i.postimg.cc/DzhLCvpd/yt.jpg" alt="" align="center"/>
+                </mj-column>
+
+            </mj-group>
+        </mj-section>
         <mj-section padding="0" background-color="#000000">
             <mj-column padding="0" background-color="#000000">
-                <mj-image src="https://i.postimg.cc/XvgFmRTM/logo.jpg" alt="" align="center" width="123px" />
-                <mj-text color="#ffffff" line-height="1.3">
-                    <h2>Fender Musical Instruments Corporation 17600 N. Perimeter Dr. Suite 100, Scottsdale, AZ 85255 © 2024. All rights reserved.
+                <mj-image href="#" src="https://i.postimg.cc/XvgFmRTM/logo.jpg" alt="" align="center" width="123px" />
+                <mj-text color="#ffffff" line-height="1">
+                    <h2 align="center">Fender Musical Instruments Corporation 
                     </h2>
+                    <h3 align="center"> 
+                    <span> 17</span><span>600</span> N. <span>Peri</span><span>meter Dr. Suite 100,</span>
+                    <span>Scot</span><span>tsdale,</span>
+                    <span>A</span><span>Z</span>
+                    <span>85</span><span>255</span>
+                        </h3>
+                    </h2>
+                    <h3 align="center">© 2024. All rights reserved.
+                    </h3>
                 </mj-text>
                 <mj-text color="#ffffff" line-height="1.3">
                     <p>*Receive up to 20% off your purchase for Winter Sale on Fender.com, excluding Fender Mod Shop, Custom Shop guitars, basses and amps. Promotion open to US residents only, and is valid only during the date range indicated in the associated advertisement or product listing. Promotion is only available on select products and styles, as determined by Fender in its sole discretion, and is valid only on marked merchandise, subject to availability. Promotion has no cash value and may only be used in connection with online purchases on Fender.com. Promotion may not be combined with any other sale, promotion, discount, code, coupon, or other offer, and may only be used once per order. In instances where a promotion applies to one product with the purchase of other or similar products, the promotion will be applied to the product with the lowest full retail price as stated on Fender.com on the date of order. Promotion not valid on prior purchases, taxes, or shipping and processing charges. Promotion void where prohibited, taxed, or otherwise restricted. Other restrictions and exclusions may apply. Fender may modify or discontinue this promotion at any time in its sole discretion. Offer valid 12:00:01am PST on December 26th, 2024 until 11:59:59pm PST on January 23th, 2025.</p>
                 </mj-text>
             </mj-column>
+        </mj-section>
+        <mj-section background-color="#000"   css-class="footer-section-links" >
+            <mj-group width="300px" css-class="footer-group-links">
+                <mj-column width="32%">
+                    <mj-text color="#ffffff" align="center" padding="0">
+                        <a href="" class="footer-links" >Contact Us</a>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="32%">
+                    <mj-text color="#ffffff" align="center"padding="0">
+                    <span>     <a href="" class="footer-links">Unsubscribe</a></span>
+                   
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                    </mj-text>
+                </mj-column>
+                <mj-column width="32%">
+                    <mj-text color="#ffffff" align="center" padding="0">
+                    
+                        <a href="" class="footer-links">Privacy Policy </a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
         </mj-section>
     </mj-body>
 </mjml>
