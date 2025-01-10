@@ -21,10 +21,10 @@
                     padding-bottom: 35px!important;
                     font-weight: 300!important;
                     text-decoration: underline!important;
-            }
+            } 
                     
             @media (max-width:550px) {
-                .social-icons{
+                .social-icons{ 
                     padding: 20px 0px !important;
                 }
 
